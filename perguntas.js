@@ -1,3 +1,8 @@
+
+
+function criaCartao(Categoria, pergunta, resposta){
+    console.log(Categoria, pergunta, resposta);
+}
 'Programação',
 "O que é JavaScript?",
 "O JavaScript é uma linguagem de programação"
@@ -9,9 +14,4 @@
 "Geografia",
 "Qual a capital da França?",
 "A capital da França é Paris"
-
-function criaCartao(Categoria, pergunta, resposta){
-    console.log(Categoria, pergunta, resposta);
-}
-
 
