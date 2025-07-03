@@ -1,5 +1,5 @@
-function criaCartao(Categria, pergunta, resposta){
-    console.log(categoria, pergunta, resposta);
+function criaCartao(Categoria, pergunta, resposta){
+    console.log(Categoria, pergunta, resposta);
 'Programação',
 "O que é JavaScript?",
 "O JavaScript é uma linguagem de programação"
