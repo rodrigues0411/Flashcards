@@ -1,4 +1,4 @@
-function criaCartao(Categoria, pergunta, resposta){
+function criaCartao[Categoria, pergunta, resposta]{
     console.log(Categoria, pergunta, resposta);
 'Programação',
 "O que é JavaScript?",
