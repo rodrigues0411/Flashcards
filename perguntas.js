@@ -1,8 +1,9 @@
-criaCartao(
+criaCartao(Categria, pergunta, resposta){
 ‘Programação’,
 ‘O que é JavaScript?’,
 ‘O JavaScript é uma linguagem de programação’
-)
+}
+
 criaCartao(
 ‘Geografia’,
 ‘Qual a capital da França?’,
