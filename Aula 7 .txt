@@ -1,0 +1,42 @@
+Já que criamos as perguntas, em criaCartao, o que precisamos 
+fazer em app.js é colocar o mesmo nome que usamos para gerar as
+    perguntas: criaCartao().Todo cartão, sem exceção, tem uma
+categoria, uma pergunta e uma resposta.Então, vamos passar
+categoria, pergunta, resposta.
+
+criaCartao(categoria, pergunta, resposta) {}
+
+function criaCartao(categoria, pergunta, resposta) {}
+
+Será que é possível visualizarmos as perguntas que fizemos na 
+tela ? Sim! Vamos aprender um comando em JavaScript, muito 
+comum especialmente na fase de teste, que é o console.log().
+Ele é uma função que mostra uma mensagem secreta para nós, 
+uma mensagem escondida de teste, para nós que trabalhamos com 
+código.Sempre que usamos o console.log(), queremos exibir uma
+ mensagem.
+
+No console.log(), queremos exibir a categoria, a pergunta e a 
+resposta.Mas qual categoria, qual pergunta e qual resposta ele 
+vai mostrar ? Ele mostrará cada uma delas que criamos em 
+perguntas.js.
+
+Para usarmos a função criaCartao(), que vai exibir todas 
+essas informações no console, precisaremos usar o nome 
+criaCartao, o mesmo que demos para a nossa função, que se 
+chama criaCartao.No primeiro espaço, terá o nome da 
+categoria.Então, ele vai mostrar, por exemplo, a categoria 
+Programação.No segundo espaço, que chamamos de pergunta, ele 
+vai mostrar a pergunta O que é Pyhton?.Depois, no terceiro 
+espaço, mostrará a resposta.Com isso, temos o cartão 1.
+
+Depois do primeiro cartão, no arquivo perguntas.js, 
+chamamos novamente a função criaCartao, então ela vai 
+mostrar a categoria, a pergunta e a resposta do segundo 
+cartão.Ou seja, ele vai mostrar todos os cartões para nós, 
+sem exceção, independente de quantas vezes tivermos chamado 
+a função.
+
+function criaCartao(categoria, pergunta, resposta) {
+    console.log(categoria, pergunta, resposta)
+}
