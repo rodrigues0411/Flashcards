@@ -1,3 +1,4 @@
+
 criaCartao(
     'Programação',
     'O que é Python?',
@@ -21,9 +22,3 @@ criaCartao(
     'Como se diz oi em Inglês?',
     'Oi em ingles é HI (RAI)'
 )
-
-function criaCartao(Categoria, pergunta, resposta){
-    console.log(Categoria, pergunta, resposta);
-}
-
-
